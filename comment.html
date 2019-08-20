@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<br><br><br>
+
+​
+
+<div class="container w-50 text-center">
+    <!-- Button to Open the Modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+      Comment
+    </button>
+
+​
+
+  
+<!-- The Modal -->
+<div class="container">
+  <div class="modal" id="myModal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Comment</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+          <div class="modal-body">
+              <div class="form-group">
+               <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Rédige ton commentaire..." autofocus="true"></textarea>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Post Comment</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <div class="container d-flew justify-content-center">
+      <div class ="row">
+
+          <img src="../img/bunny.jpg" alt="" class="mr-2 rounded" style="height:44px; width:44px">
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark">@username <small>time</small> </strong>
+            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+          </p>
+      </div>
+  </div>
+  </div>
+​</div>
+</div>
+
+</body>
